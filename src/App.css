@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-registro{
+    background-color: #e6eee6a1;
+}
+
+.titulo-app, .parrafo-app{
+    padding: 0.3em 0;
+    text-align: center;
+    background-color: rgba(18, 18, 228, 0.699);
+    color: white;
+}
+
+.titulo-app{
+    font-size: 1.8em;
+}
+
+.parrafo-app{  
+    padding-bottom: 0.5em;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3.2em;
+}
+
+.input-registro{
+    font-size: 0.9em;
+    margin: 0.5em 0.2em;
+    padding: 1em 0.5em;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-registro:focus-visible{
+    outline: 0 none;
+    border: 1px solid rgba(18, 18, 228, 0.699);
+}
+
+.inputs-radio{
+    padding-left: 0.3em;
+}
+
+.btn-agregar{
+    align-self: center;
+    padding: 0.5em;
+    margin: 0.8em 0;
+    margin-left: -3.2em;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(18, 18, 228, 0.699);
+    color: white;
+}
